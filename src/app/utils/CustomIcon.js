@@ -1,9 +1,10 @@
 import React from "react";
 
 import * as Icon from "react-icons/ai";
+import { Colors } from "../constant/Colors";
 
 export default function CustomIcon({ media }) {
-  const primary = "#F4D19B";
+  const primary = Colors.primary;
   if (media === "instagram") {
     return <Icon.AiFillInstagram color={primary} size={64} />;
   } else if (media === "github") {

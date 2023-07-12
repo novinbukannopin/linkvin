@@ -4,7 +4,7 @@ import Linked from "./components/Linked";
 
 export default function Home() {
   return (
-    <div className="container mx-auto pt-[84px] pb-[32px] px-[24px] sm:w-1/3 bg-primary h-screen flex flex-col justify-between">
+    <div className="container mx-auto pt-[84px] pb-[32px] px-[24px] sm:w-1/3 bg-primary  flex flex-col justify-between">
       <div className="">
         <Header />
         <div className="flex flex-col gap-6 mb-6">
@@ -44,9 +44,16 @@ export default function Home() {
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsa? Quam in repudiandae ex ullam sit neque. Fugiat, ipsum consequatur."
             }
           />
+          <Blog
+            title={"Hello World"}
+            createdAt={"12 December 2022"}
+            content={
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsa? Quam in repudiandae ex ullam sit neque. Fugiat, ipsum consequatur."
+            }
+          />
         </div>
       </div>
-      <div className="text-center">Created by Novin.</div>
+      <div className="text-center mt-5 text-sm">Created by Novin.</div>
     </div>
   );
 }

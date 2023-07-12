@@ -2,9 +2,10 @@ import React from "react";
 import Link from "next/link";
 
 import * as Icon from "react-icons/ai";
+import { Colors } from "../constant/Colors";
 
 const SetupIcons = (media) => {
-  const primary = "#F4D19B";
+  const primary = Colors.primary;
   if (media === "instagram") {
     return <Icon.AiFillInstagram color={primary} size={48} />;
   } else if (media === "github") {
