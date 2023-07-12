@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
     "autoprefixer": "10.4.14",
+    "flowbite": "^1.7.0",
+    "flowbite-react": "^0.4.11",
     "next": "13.4.8",
     "postcss": "8.4.24",
     "react": "18.2.0",
