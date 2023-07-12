@@ -1,6 +1,5 @@
 import Blog from "./components/Blog";
 import Header from "./components/Header";
-import Linked from "./components/Linked";
 import ModalConfirm from "./utils/ModalConfirm";
 
 export default function Home() {
