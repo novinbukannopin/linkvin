@@ -6,7 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Linky - Novin",
   description: "Created by Novin.",
-  // icon: "/favicon.png",
+  icon: {
+    icons: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
