@@ -4,11 +4,11 @@ import ModalConfirm from "./utils/ModalConfirm";
 
 export default function Home() {
   return (
-    <div className="container mx-auto pt-[84px] pb-[32px] px-[24px] sm:w-1/3 bg-custom-gradient-1  flex flex-col justify-between">
+    <div className="container mx-auto pt-[20px] pb-[32px] px-[24px] sm:w-1/3 bg-bg  flex flex-col justify-between">
       <div className="">
         <Header />
         <div className="flex flex-col gap-6 mb-6">
-          <h5>My Social Media</h5>
+          <h5 className="text-primary">My Social Media</h5>
 
           <ModalConfirm
             icon={"github"}
@@ -31,7 +31,7 @@ export default function Home() {
             link={"https://discordapp.com/users/547024593127211019/"}
           />
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center text-[#232946]">
           <h5 className="py-6">My Recent Article</h5>
           <h5 className="py-6">more ...</h5>
         </div>
@@ -59,7 +59,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="text-center mt-5 text-sm">
+      <div className="text-center mt-5 text-sm text-[#232946]">
         Created by <span className="font-bold">Novin</span>.
       </div>
     </div>

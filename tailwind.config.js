@@ -18,8 +18,9 @@ module.exports = {
           "linear-gradient(to right, rgb(147, 197, 253), rgb(187, 247, 208), rgb(253, 224, 71))",
       },
       colors: {
-        primary: "#1d3557",
-        secondary: "#FAF7F0",
+        primary: "#232946",
+        secondary: "#fffffe",
+        bg: "#b8c1ec",
       },
     },
   },

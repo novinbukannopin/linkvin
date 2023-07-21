@@ -1,13 +1,17 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
+"use client";
 
-const inter = Inter({ subsets: ["latin"] });
+import "./globals.css";
+import { Maven_Pro } from "next/font/google";
+
+import { ThemeProvider } from "next-themes";
+
+const inter = Maven_Pro({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Linky - Novin",
   description: "Created by Novin.",
   icon: {
-    icons: "/favicon.png",
+    icons: "./favicon.png",
   },
 };
 

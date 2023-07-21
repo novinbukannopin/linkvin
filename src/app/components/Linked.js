@@ -21,9 +21,9 @@ const SetupIcons = (media) => {
 export default function Linked({ icon, title, link }) {
   return (
     <>
-      <div className="bg-white px-[12px] py-[14px] rounded-md border-0 shadow-lg flex items-center gap-4 hover:bg-hover-gradient hover:text-white hover:transition hover:scale-105 duration-200 transform ease-linear">
+      <div className="bg-secondary px-[12px] py-[14px] rounded-sm border-0 shadow-lg flex items-center gap-4 hover:bg-hover-gradient hover:text-white hover:transition hover:scale-105 duration-200 transform ease-linear">
         <div className="hover:animate-spin">{SetupIcons(icon)}</div>
-        <h2 className="text-black text-lg ">{title}</h2>
+        <h2 className="text-primary text-lg font-semibold">{title}</h2>
       </div>
     </>
   );
