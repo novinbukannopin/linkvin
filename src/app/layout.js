@@ -3,8 +3,6 @@
 import "./globals.css";
 import { Maven_Pro } from "next/font/google";
 
-import { ThemeProvider } from "next-themes";
-
 const inter = Maven_Pro({ subsets: ["latin"] });
 
 export const metadata = {
