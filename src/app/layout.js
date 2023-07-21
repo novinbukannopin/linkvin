@@ -1,5 +1,3 @@
-"use client";
-
 import "./globals.css";
 import { Maven_Pro } from "next/font/google";
 
